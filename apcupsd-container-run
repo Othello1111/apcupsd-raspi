@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run --device=/dev/usb/hiddev0 --detach --rm --name apcupsd image/name
